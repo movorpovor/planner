@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="404C528E-8490-CBCF-0E3A-AC6074EC90F0" name="Actions">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:25:51 UTC</createdTime>
+<comment>Одиночное действие</comment>
+<ownerDesignName>db_struct</ownerDesignName>
+<engineerTo>
+<item key="D78B2781-E1A6-8CC4-DC60-91940ADF4CB1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="15642553-D47A-79F5-C8D5-AA2B82F9FA2D">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:27:01 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<engineerTo>
+<item key="D78B2781-E1A6-8CC4-DC60-91940ADF4CB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="D40CAC16-AF44-6119-2C0B-2B1F6943BC28">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:27:46 UTC</createdTime>
+<comment>Наименование действия</comment>
+<ownerDesignName>db_struct</ownerDesignName>
+<engineerTo>
+<item key="D78B2781-E1A6-8CC4-DC60-91940ADF4CB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="1FF76463-43E2-D23E-DAF2-D1794BE023E7">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:29:21 UTC</createdTime>
+<comment>Описание действия</comment>
+<ownerDesignName>db_struct</ownerDesignName>
+<engineerTo>
+<item key="D78B2781-E1A6-8CC4-DC60-91940ADF4CB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duration" id="8B53E963-3587-D460-07C7-FE14C89EAFAD">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:31:00 UTC</createdTime>
+<comment>Продолжительность действия</comment>
+<ownerDesignName>db_struct</ownerDesignName>
+<engineerTo>
+<item key="D78B2781-E1A6-8CC4-DC60-91940ADF4CB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30E01F48-7BD2-3218-7C26-4FBE14AFD5D2" name="Action PK">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:28:53 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<engineerTo>
+<item key="D78B2781-E1A6-8CC4-DC60-91940ADF4CB1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15642553-D47A-79F5-C8D5-AA2B82F9FA2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

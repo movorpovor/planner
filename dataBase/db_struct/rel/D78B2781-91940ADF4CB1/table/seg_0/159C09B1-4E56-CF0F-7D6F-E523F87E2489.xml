@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="159C09B1-4E56-CF0F-7D6F-E523F87E2489" name="types_of_days">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:11:33 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tod_id" id="84419F20-E4E7-978A-A681-73D36D7042C1">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:11:58 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tod_name" id="A033138B-3D29-4678-723D-B7AB854801F7">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:12:13 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E79E98AF-5DB5-86E0-4AB7-E0CC9A9897BB" name="types_of_days_PK">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:11:58 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84419F20-E4E7-978A-A681-73D36D7042C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF46C151-C47E-FC44-2640-0B303A7DBC98" name="days">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:04:12 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="d_id" id="150AA004-B846-C923-F0BB-80D784019F2F">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:05:03 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="d_date" id="28D85659-51EC-B349-00F2-08BCD8565716">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:05:03 UTC</createdTime>
+<commentInRDBMS>Если тип (период), то отображает дату начала периода, если тип (дата) - конкретную дату</commentInRDBMS>
+<ownerDesignName>db_struct</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="d_type" id="D93C96B2-A3A4-4ED0-E5A6-6C6C4F49EEBF">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:06:18 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38071238-C540-EC0A-2B81-AC755816E3F1" referredColumn="84419F20-E4E7-978A-A681-73D36D7042C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56715BAA-2AC8-D4E0-3661-F7AA396F4F15" name="days_PK">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:05:03 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="150AA004-B846-C923-F0BB-80D784019F2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3EFBF87-9C2B-C02D-8566-B47CBD53A7F5" name="days__UN">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:08:29 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28D85659-51EC-B349-00F2-08BCD8565716"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17F105D3-20C1-9411-3ACB-E5DB48B26B2F" name="days_types_of_days_FK">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:26:18 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D93C96B2-A3A4-4ED0-E5A6-6C6C4F49EEBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

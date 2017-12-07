@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A04AA63C-66E8-9D63-DD90-5557D15C7FA8" name="action_types">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:38:12 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="at_id" id="2EDF1B62-1E37-D0C8-EB54-BD9857BF1085">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:38:38 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="at_name" id="8AC15A87-9055-CF0D-9609-BB1A18E19F46">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:38:53 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="at_description" id="3F5CD6D0-B869-06F6-9EC3-774F0E4930FD">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:39:42 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="158946CC-4193-A1AE-F46B-836C8FF562E5" name="action_types_PK">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:38:38 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EDF1B62-1E37-D0C8-EB54-BD9857BF1085"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

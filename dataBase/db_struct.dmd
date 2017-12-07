@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="db_struct" id="778BB4C4-CDBC-887F-958F-C0D3372D6278" version="3.5">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:24:19 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>778BB4C4-CDBC-887F-958F-C0D3372D6278</designId>
+</OSDM_Design>

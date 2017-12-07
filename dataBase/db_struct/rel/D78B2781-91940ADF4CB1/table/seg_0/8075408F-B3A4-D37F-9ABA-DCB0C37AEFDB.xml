@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8075408F-B3A4-D37F-9ABA-DCB0C37AEFDB" name="actions">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:34:00 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="a_id" id="35F2C7A6-5CDF-28B1-12DC-4B1259ADBADB">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:35:33 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a_name" id="803C01AC-C34C-DCC4-3C5E-AD8E2102F4AA">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:36:07 UTC</createdTime>
+<commentInRDBMS>Наименование дейсвтия</commentInRDBMS>
+<ownerDesignName>db_struct</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a_description" id="2064BE5D-72E2-73D1-847D-72AE73F74598">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:36:43 UTC</createdTime>
+<commentInRDBMS>Описание действия</commentInRDBMS>
+<ownerDesignName>db_struct</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="a_type" id="5F8F5974-F175-6746-389E-9CEDF75E8FF2">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:37:57 UTC</createdTime>
+<commentInRDBMS>Id of the type of the action</commentInRDBMS>
+<ownerDesignName>db_struct</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62A3D3F4-4672-C3F2-02C4-8E5B5321E84C" referredColumn="2EDF1B62-1E37-D0C8-EB54-BD9857BF1085"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E188325-4B54-96B5-5C57-39208527C201" name="Actions_PK">
+<createdBy>me</createdBy>
+<createdTime>2017-12-06 23:35:33 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35F2C7A6-5CDF-28B1-12DC-4B1259ADBADB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73A7D694-9DB4-48E3-07BA-59AB85BC292F" name="actions_action_types_FK">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:40:15 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F8F5974-F175-6746-389E-9CEDF75E8FF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0E1F525-9E1E-440A-BC2C-18EE59A7376B" name="days_actions">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:29:42 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="da_id" id="461AB3C1-7FC4-713F-6BA3-AD80B6FAA8F8">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:30:14 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="da_day" id="0778B6B7-340F-24EA-DED4-6E3AEF4EC7F0">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:31:14 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01073FFD-E892-3821-580A-C4DC75BDE4ED" referredColumn="150AA004-B846-C923-F0BB-80D784019F2F"/>
+</associations>
+</Column>
+<Column name="da_action" id="42F601F3-045A-300E-7ADD-917BE74B628F">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:31:33 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7273AF48-6FC1-6CA5-5598-DAAFA6D2E3D2" referredColumn="35F2C7A6-5CDF-28B1-12DC-4B1259ADBADB"/>
+</associations>
+</Column>
+<Column name="da_duration" id="2FF132EC-89E0-486C-1CC0-43DFCBC6E2CC">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:44:19 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19836E17-B74D-605C-415E-877ADD7D2361" name="days_actions_PK">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:30:14 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="461AB3C1-7FC4-713F-6BA3-AD80B6FAA8F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F463C34-2F97-A683-81C5-4A51BF075207" name="days_actions_Actions_FK">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:32:16 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42F601F3-045A-300E-7ADD-917BE74B628F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7A631EA-B837-7677-D472-7C832FF807D7" name="days_actions_days_FK">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 11:33:04 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0778B6B7-340F-24EA-DED4-6E3AEF4EC7F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
