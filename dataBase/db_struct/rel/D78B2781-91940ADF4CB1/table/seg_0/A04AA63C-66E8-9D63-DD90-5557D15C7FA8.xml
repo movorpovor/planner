@@ -41,6 +41,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="at_color" id="8775D099-3922-E119-D9A4-953D46244C49">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 13:38:45 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="158946CC-4193-A1AE-F46B-836C8FF562E5" name="action_types_PK">
