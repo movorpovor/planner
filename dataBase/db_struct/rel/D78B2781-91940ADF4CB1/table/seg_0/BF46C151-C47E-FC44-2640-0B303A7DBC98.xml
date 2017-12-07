@@ -43,6 +43,18 @@
 <colAssociation fkAssociation="38071238-C540-EC0A-2B81-AC755816E3F1" referredColumn="84419F20-E4E7-978A-A681-73D36D7042C1"/>
 </associations>
 </Column>
+<Column name="d_dayOff" id="0AECFDF4-962C-0406-25C0-030E7B796D32">
+<createdBy>me</createdBy>
+<createdTime>2017-12-07 13:25:57 UTC</createdTime>
+<ownerDesignName>db_struct</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="56715BAA-2AC8-D4E0-3661-F7AA396F4F15" name="days_PK">
